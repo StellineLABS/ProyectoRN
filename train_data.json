@@ -62,7 +62,7 @@
         },
         {
             "wav": "canciones/T157.flac",
-            "labels": "T154,T160"
+            "labels": "T160,T154"
         },
         {
             "wav": "canciones/T012.flac",
@@ -114,7 +114,7 @@
         },
         {
             "wav": "canciones/T048.flac",
-            "labels": "T049,T050,T082"
+            "labels": "T082,T050,T049"
         },
         {
             "wav": "canciones/T009.flac",
@@ -170,11 +170,11 @@
         },
         {
             "wav": "canciones/T184.flac",
-            "labels": "T083,T185,T199"
+            "labels": "T083,T199,T185"
         },
         {
             "wav": "canciones/T110.flac",
-            "labels": "T112,T111"
+            "labels": "T111,T112"
         },
         {
             "wav": "canciones/T147.flac",
@@ -278,7 +278,7 @@
         },
         {
             "wav": "canciones/T054.flac",
-            "labels": "T045,T083"
+            "labels": "T083,T045"
         },
         {
             "wav": "canciones/T185.flac",
@@ -298,7 +298,7 @@
         },
         {
             "wav": "canciones/T039.flac",
-            "labels": "T052,T040"
+            "labels": "T040,T052"
         },
         {
             "wav": "canciones/T193.flac",
@@ -382,7 +382,7 @@
         },
         {
             "wav": "canciones/T037.flac",
-            "labels": "T038,T052,T043"
+            "labels": "T038,T043,T052"
         },
         {
             "wav": "canciones/T060.flac",
@@ -426,7 +426,7 @@
         },
         {
             "wav": "canciones/T187.flac",
-            "labels": "T088,T160"
+            "labels": "T160,T088"
         },
         {
             "wav": "canciones/T056.flac",
@@ -522,7 +522,7 @@
         },
         {
             "wav": "canciones/T093.flac",
-            "labels": "T090,T094,T095"
+            "labels": "T094,T090,T095"
         },
         {
             "wav": "canciones/T181.flac",
@@ -534,7 +534,7 @@
         },
         {
             "wav": "canciones/T115.flac",
-            "labels": "T117,T116"
+            "labels": "T116,T117"
         },
         {
             "wav": "canciones/T007.flac",
