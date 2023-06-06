@@ -1,243 +1,11 @@
 {
     "data": [
         {
-            "wav": "canciones/T001.flac",
-            "labels": "T002"
-        },
-        {
-            "wav": "canciones/T002.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T003.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T004.flac",
-            "labels": "T003"
-        },
-        {
-            "wav": "canciones/T005.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T006.flac",
-            "labels": "T005"
-        },
-        {
-            "wav": "canciones/T007.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T008.flac",
-            "labels": "T007"
-        },
-        {
-            "wav": "canciones/T009.flac",
-            "labels": "T010"
-        },
-        {
-            "wav": "canciones/T010.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T011.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T012.flac",
-            "labels": "T011"
-        },
-        {
-            "wav": "canciones/T013.flac",
-            "labels": "T014"
-        },
-        {
-            "wav": "canciones/T014.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T015.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T016.flac",
-            "labels": "T015"
-        },
-        {
-            "wav": "canciones/T017.flac",
-            "labels": "T018"
-        },
-        {
-            "wav": "canciones/T018.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T020.flac",
-            "labels": "T021"
-        },
-        {
-            "wav": "canciones/T021.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T022.flac",
-            "labels": "T023"
-        },
-        {
-            "wav": "canciones/T023.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T024.flac",
-            "labels": "T025"
-        },
-        {
-            "wav": "canciones/T025.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T026.flac",
-            "labels": "T027"
-        },
-        {
-            "wav": "canciones/T027.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T028.flac",
-            "labels": "T029"
-        },
-        {
-            "wav": "canciones/T029.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T030.flac",
-            "labels": "T031"
-        },
-        {
-            "wav": "canciones/T031.flac",
-            "labels": "T000"
-        },
-        {
             "wav": "canciones/T032.flac",
             "labels": "T033"
         },
         {
-            "wav": "canciones/T033.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T034.flac",
-            "labels": "T035"
-        },
-        {
-            "wav": "canciones/T035.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T036.flac",
-            "labels": "T033"
-        },
-        {
-            "wav": "canciones/T037.flac",
-            "labels": "T043,T052,T038"
-        },
-        {
-            "wav": "canciones/T038.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T039.flac",
-            "labels": "T040,T052"
-        },
-        {
-            "wav": "canciones/T040.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T041.flac",
-            "labels": "T042"
-        },
-        {
-            "wav": "canciones/T042.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T043.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T044.flac",
-            "labels": "T045"
-        },
-        {
-            "wav": "canciones/T045.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T048.flac",
-            "labels": "T082,T049,T050"
-        },
-        {
-            "wav": "canciones/T049.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T050.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T051.flac",
-            "labels": "T052"
-        },
-        {
-            "wav": "canciones/T052.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T053.flac",
-            "labels": "T052"
-        },
-        {
-            "wav": "canciones/T054.flac",
-            "labels": "T083,T045"
-        },
-        {
-            "wav": "canciones/T056.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T057.flac",
-            "labels": "T056"
-        },
-        {
-            "wav": "canciones/T058.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T059.flac",
-            "labels": "T058"
-        },
-        {
-            "wav": "canciones/T060.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T061.flac",
-            "labels": "T060"
-        },
-        {
-            "wav": "canciones/T062.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T063.flac",
-            "labels": "T062"
-        },
-        {
-            "wav": "canciones/T064.flac",
+            "wav": "canciones/T177.flac",
             "labels": "T000"
         },
         {
@@ -245,15 +13,19 @@
             "labels": "T064"
         },
         {
-            "wav": "canciones/T066.flac",
-            "labels": "T000"
+            "wav": "canciones/T073.flac",
+            "labels": "T072"
         },
         {
-            "wav": "canciones/T067.flac",
-            "labels": "T066"
+            "wav": "canciones/T024.flac",
+            "labels": "T025"
         },
         {
-            "wav": "canciones/T068.flac",
+            "wav": "canciones/T008.flac",
+            "labels": "T007"
+        },
+        {
+            "wav": "canciones/T049.flac",
             "labels": "T000"
         },
         {
@@ -261,159 +33,63 @@
             "labels": "T068"
         },
         {
-            "wav": "canciones/T070.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T071.flac",
-            "labels": "T070"
-        },
-        {
-            "wav": "canciones/T072.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T073.flac",
-            "labels": "T072"
-        },
-        {
-            "wav": "canciones/T074.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T075.flac",
-            "labels": "T074"
-        },
-        {
-            "wav": "canciones/T076.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T077.flac",
-            "labels": "T076"
-        },
-        {
-            "wav": "canciones/T078.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T079.flac",
-            "labels": "T078"
-        },
-        {
-            "wav": "canciones/T080.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T081.flac",
-            "labels": "T080"
-        },
-        {
-            "wav": "canciones/T082.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T083.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T084.flac",
-            "labels": "T085"
-        },
-        {
-            "wav": "canciones/T085.flac",
-            "labels": "T000"
-        },
-        {
             "wav": "canciones/T086.flac",
             "labels": "T116,T088"
-        },
-        {
-            "wav": "canciones/T088.flac",
-            "labels": "T000"
         },
         {
             "wav": "canciones/T090.flac",
             "labels": "T000"
         },
         {
-            "wav": "canciones/T091.flac",
-            "labels": "T090"
-        },
-        {
-            "wav": "canciones/T092.flac",
-            "labels": "T090"
-        },
-        {
-            "wav": "canciones/T093.flac",
-            "labels": "T095,T094,T090"
-        },
-        {
-            "wav": "canciones/T094.flac",
+            "wav": "canciones/T182.flac",
             "labels": "T000"
         },
         {
-            "wav": "canciones/T095.flac",
+            "wav": "canciones/T028.flac",
+            "labels": "T029"
+        },
+        {
+            "wav": "canciones/T116.flac",
             "labels": "T000"
         },
         {
-            "wav": "canciones/T097.flac",
-            "labels": "T098"
+            "wav": "canciones/T053.flac",
+            "labels": "T052"
         },
         {
-            "wav": "canciones/T098.flac",
-            "labels": "T000"
+            "wav": "canciones/T004.flac",
+            "labels": "T003"
         },
         {
-            "wav": "canciones/T099.flac",
-            "labels": "T098"
+            "wav": "canciones/T157.flac",
+            "labels": "T154,T160"
+        },
+        {
+            "wav": "canciones/T012.flac",
+            "labels": "T011"
         },
         {
             "wav": "canciones/T100.flac",
             "labels": "T098"
         },
         {
+            "wav": "canciones/T045.flac",
+            "labels": "T000"
+        },
+        {
             "wav": "canciones/T101.flac",
             "labels": "T000"
         },
         {
-            "wav": "canciones/T102.flac",
-            "labels": "T101"
+            "wav": "canciones/T044.flac",
+            "labels": "T045"
         },
         {
-            "wav": "canciones/T103.flac",
-            "labels": "T104"
+            "wav": "canciones/T013.flac",
+            "labels": "T014"
         },
         {
-            "wav": "canciones/T104.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T108.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T109.flac",
-            "labels": "T108"
-        },
-        {
-            "wav": "canciones/T110.flac",
-            "labels": "T111,T112"
-        },
-        {
-            "wav": "canciones/T111.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T112.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T115.flac",
-            "labels": "T117,T116"
-        },
-        {
-            "wav": "canciones/T116.flac",
+            "wav": "canciones/T005.flac",
             "labels": "T000"
         },
         {
@@ -421,11 +97,43 @@
             "labels": "T000"
         },
         {
-            "wav": "canciones/T118.flac",
-            "labels": "T119"
+            "wav": "canciones/T052.flac",
+            "labels": "T000"
         },
         {
-            "wav": "canciones/T119.flac",
+            "wav": "canciones/T029.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T091.flac",
+            "labels": "T090"
+        },
+        {
+            "wav": "canciones/T068.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T048.flac",
+            "labels": "T049,T050,T082"
+        },
+        {
+            "wav": "canciones/T009.flac",
+            "labels": "T010"
+        },
+        {
+            "wav": "canciones/T025.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T160.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T072.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T064.flac",
             "labels": "T000"
         },
         {
@@ -433,83 +141,11 @@
             "labels": "T085"
         },
         {
-            "wav": "canciones/T144.flac",
-            "labels": "T145"
-        },
-        {
-            "wav": "canciones/T145.flac",
+            "wav": "canciones/T199.flac",
             "labels": "T000"
         },
         {
-            "wav": "canciones/T146.flac",
-            "labels": "T145"
-        },
-        {
-            "wav": "canciones/T147.flac",
-            "labels": "T148"
-        },
-        {
-            "wav": "canciones/T148.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T149.flac",
-            "labels": "T148"
-        },
-        {
-            "wav": "canciones/T150.flac",
-            "labels": "T151"
-        },
-        {
-            "wav": "canciones/T151.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T152.flac",
-            "labels": "T145"
-        },
-        {
-            "wav": "canciones/T153.flac",
-            "labels": "T154"
-        },
-        {
-            "wav": "canciones/T154.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T157.flac",
-            "labels": "T154,T160"
-        },
-        {
-            "wav": "canciones/T160.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T162.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T163.flac",
-            "labels": "T162"
-        },
-        {
-            "wav": "canciones/T164.flac",
-            "labels": "T162"
-        },
-        {
-            "wav": "canciones/T166.flac",
-            "labels": "T167"
-        },
-        {
-            "wav": "canciones/T167.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T172.flac",
-            "labels": "T173"
-        },
-        {
-            "wav": "canciones/T173.flac",
+            "wav": "canciones/T033.flac",
             "labels": "T000"
         },
         {
@@ -517,63 +153,427 @@
             "labels": "T177"
         },
         {
-            "wav": "canciones/T177.flac",
+            "wav": "canciones/T038.flac",
             "labels": "T000"
-        },
-        {
-            "wav": "canciones/T178.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T179.flac",
-            "labels": "T180"
-        },
-        {
-            "wav": "canciones/T180.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T181.flac",
-            "labels": "T182"
-        },
-        {
-            "wav": "canciones/T182.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T184.flac",
-            "labels": "T185,T083,T199"
-        },
-        {
-            "wav": "canciones/T185.flac",
-            "labels": "T000"
-        },
-        {
-            "wav": "canciones/T187.flac",
-            "labels": "T160,T088"
-        },
-        {
-            "wav": "canciones/T189.flac",
-            "labels": "T083"
-        },
-        {
-            "wav": "canciones/T190.flac",
-            "labels": "T083"
-        },
-        {
-            "wav": "canciones/T191.flac",
-            "labels": "T083"
         },
         {
             "wav": "canciones/T192.flac",
             "labels": "T193"
         },
         {
+            "wav": "canciones/T080.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T079.flac",
+            "labels": "T078"
+        },
+        {
+            "wav": "canciones/T184.flac",
+            "labels": "T083,T185,T199"
+        },
+        {
+            "wav": "canciones/T110.flac",
+            "labels": "T112,T111"
+        },
+        {
+            "wav": "canciones/T147.flac",
+            "labels": "T148"
+        },
+        {
+            "wav": "canciones/T002.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T151.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T014.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T043.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T034.flac",
+            "labels": "T035"
+        },
+        {
+            "wav": "canciones/T063.flac",
+            "labels": "T062"
+        },
+        {
+            "wav": "canciones/T075.flac",
+            "labels": "T074"
+        },
+        {
+            "wav": "canciones/T022.flac",
+            "labels": "T023"
+        },
+        {
+            "wav": "canciones/T167.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T059.flac",
+            "labels": "T058"
+        },
+        {
+            "wav": "canciones/T018.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T058.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T023.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T189.flac",
+            "labels": "T083"
+        },
+        {
+            "wav": "canciones/T166.flac",
+            "labels": "T167"
+        },
+        {
+            "wav": "canciones/T074.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T062.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T035.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T042.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T150.flac",
+            "labels": "T151"
+        },
+        {
+            "wav": "canciones/T015.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T146.flac",
+            "labels": "T145"
+        },
+        {
+            "wav": "canciones/T003.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T111.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T054.flac",
+            "labels": "T045,T083"
+        },
+        {
+            "wav": "canciones/T185.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T078.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T097.flac",
+            "labels": "T098"
+        },
+        {
+            "wav": "canciones/T081.flac",
+            "labels": "T080"
+        },
+        {
+            "wav": "canciones/T039.flac",
+            "labels": "T052,T040"
+        },
+        {
             "wav": "canciones/T193.flac",
             "labels": "T000"
         },
         {
-            "wav": "canciones/T199.flac",
+            "wav": "canciones/T041.flac",
+            "labels": "T042"
+        },
+        {
+            "wav": "canciones/T104.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T016.flac",
+            "labels": "T015"
+        },
+        {
+            "wav": "canciones/T153.flac",
+            "labels": "T154"
+        },
+        {
+            "wav": "canciones/T145.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T057.flac",
+            "labels": "T056"
+        },
+        {
+            "wav": "canciones/T112.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T094.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T082.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T190.flac",
+            "labels": "T083"
+        },
+        {
+            "wav": "canciones/T108.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T149.flac",
+            "labels": "T148"
+        },
+        {
+            "wav": "canciones/T020.flac",
+            "labels": "T021"
+        },
+        {
+            "wav": "canciones/T098.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T077.flac",
+            "labels": "T076"
+        },
+        {
+            "wav": "canciones/T061.flac",
+            "labels": "T060"
+        },
+        {
+            "wav": "canciones/T173.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T036.flac",
+            "labels": "T033"
+        },
+        {
+            "wav": "canciones/T172.flac",
+            "labels": "T173"
+        },
+        {
+            "wav": "canciones/T037.flac",
+            "labels": "T038,T052,T043"
+        },
+        {
+            "wav": "canciones/T060.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T099.flac",
+            "labels": "T098"
+        },
+        {
+            "wav": "canciones/T076.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T164.flac",
+            "labels": "T162"
+        },
+        {
+            "wav": "canciones/T021.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T148.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T109.flac",
+            "labels": "T108"
+        },
+        {
+            "wav": "canciones/T191.flac",
+            "labels": "T083"
+        },
+        {
+            "wav": "canciones/T083.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T095.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T187.flac",
+            "labels": "T088,T160"
+        },
+        {
+            "wav": "canciones/T056.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T001.flac",
+            "labels": "T002"
+        },
+        {
+            "wav": "canciones/T144.flac",
+            "labels": "T145"
+        },
+        {
+            "wav": "canciones/T017.flac",
+            "labels": "T018"
+        },
+        {
+            "wav": "canciones/T152.flac",
+            "labels": "T145"
+        },
+        {
+            "wav": "canciones/T040.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T118.flac",
+            "labels": "T119"
+        },
+        {
+            "wav": "canciones/T163.flac",
+            "labels": "T162"
+        },
+        {
+            "wav": "canciones/T026.flac",
+            "labels": "T027"
+        },
+        {
+            "wav": "canciones/T071.flac",
+            "labels": "T070"
+        },
+        {
+            "wav": "canciones/T088.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T067.flac",
+            "labels": "T066"
+        },
+        {
+            "wav": "canciones/T030.flac",
+            "labels": "T031"
+        },
+        {
+            "wav": "canciones/T102.flac",
+            "labels": "T101"
+        },
+        {
+            "wav": "canciones/T010.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T006.flac",
+            "labels": "T005"
+        },
+        {
+            "wav": "canciones/T051.flac",
+            "labels": "T052"
+        },
+        {
+            "wav": "canciones/T180.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T092.flac",
+            "labels": "T090"
+        },
+        {
+            "wav": "canciones/T084.flac",
+            "labels": "T085"
+        },
+        {
+            "wav": "canciones/T179.flac",
+            "labels": "T180"
+        },
+        {
+            "wav": "canciones/T178.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T085.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T093.flac",
+            "labels": "T090,T094,T095"
+        },
+        {
+            "wav": "canciones/T181.flac",
+            "labels": "T182"
+        },
+        {
+            "wav": "canciones/T050.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T115.flac",
+            "labels": "T117,T116"
+        },
+        {
+            "wav": "canciones/T007.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T011.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T154.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T103.flac",
+            "labels": "T104"
+        },
+        {
+            "wav": "canciones/T031.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T066.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T070.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T162.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T027.flac",
+            "labels": "T000"
+        },
+        {
+            "wav": "canciones/T119.flac",
             "labels": "T000"
         }
     ]
