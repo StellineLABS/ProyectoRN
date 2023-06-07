@@ -2,7 +2,7 @@
 * Britny Brito Juárez 421074668
 * David Salvador Preciado Márquez 421091670
 
-Para un dataset formado por canciones de hip-hop y samples que se encuentran en dichas canciones. El proyecto consta de un clasificador que nos dice cuál de los samples se encuentra en cual canción. Es importante mencionar que si bien es posible que se tenga más de un sample por canción, el clasificador solo identificará uno de esos samples.
+Clasificador que identifica samples en canciones.
 
 
 ## Implementación
@@ -21,7 +21,8 @@ Algunos detalles que vale la pena resaltar son los siguiente:
     * Mlp
     * Block
 * A diferencia de la arquitectura presentada en el artículo, nosotros agregamos una capa adicional que aplica la función softmax sobre las salidas.
-* Nuestro dataset se encuentra conformado por archivos flac en mono, con un muestreo de 16 kHz. Los archivos de audio fueron obtenidos a mano, el csv que relaciona cada canción con su sample que proviene de un dataset encontrado en Kaggle.
+* Nuestro dataset se encuentra conformado por archivos flac en mono, con un muestreo de 16 kHz. Los archivos de audio fueron obtenidos a mano, el csv que relaciona cada canción con su sample que proviene de un dataset encontrado en Kaggle. Consta en su mayoría de canciones de hip-hop.
+* Si bien es posible que se tenga más de un sample por canción, el clasificador solo identificará uno de esos samples.
 * Evaluamos con el mismo conjunto que usamos para entrenar. Esto es porque el modelo solo puede identificar samples que ha "escuchado", y por lo tanto no tendría sentido esperar que identifique correctamente uno que no estuvo en su conjunto de entrenamiento.
 * El archivo de pesos modelo_audio.pth fue conseguido entrenando en una GPU Nvidia Tesla T4 durante 50 ciclos. El entrenamiento tardó 30 min, y generó la gráfica de error mostrada a continuación:
     ![error](./error.png)  
