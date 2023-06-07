@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 #importar dependencias
 import torch
 import torch.nn as nn
@@ -18,10 +12,6 @@ from timm.layers import use_fused_attn
 from timm.models.layers import to_2tuple,trunc_normal_
 import numpy as np
 import wget
-
-
-# In[3]:
-
 
 class Attention(nn.Module):
     fused_attn: Final[bool]
@@ -72,10 +62,6 @@ class Attention(nn.Module):
         x = self.proj_drop(x)
         return x
 
-
-# In[4]:
-
-
 class LayerScale(nn.Module):
     def __init__(self, dim, init_values=1e-5, inplace=False):
         super().__init__()
@@ -84,10 +70,6 @@ class LayerScale(nn.Module):
 
     def forward(self, x):
         return x.mul_(self.gamma) if self.inplace else x * self.gamma
-
-
-# In[5]:
-
 
 class DropPath(nn.Module):
     def __init__(self, drop_prob: float = 0., scale_by_keep: bool = True):
@@ -100,10 +82,6 @@ class DropPath(nn.Module):
 
     def extra_repr(self):
         return f'drop_prob={round(self.drop_prob,3):0.3f}'
-
-
-# In[6]:
-
 
 class Mlp(nn.Module):
     def __init__(self, in_features, hidden_features=None, out_features=None, act_layer=nn.GELU, 
@@ -129,10 +107,6 @@ class Mlp(nn.Module):
         x = self.fc2(x)
         x = self.drop2(x)
         return x
-
-
-# In[7]:
-
 
 class Block(nn.Module):
 
@@ -174,10 +148,6 @@ class Block(nn.Module):
         x = x + self.drop_path2(self.ls2(self.mlp(self.norm2(x))))
         return x
 
-
-# In[8]:
-
-
 class PatchEmbedding(nn.Module):
     '''
     Clase para obtener el patch embedding: Dividimos la imagen en 'paches' y los proyectamos.
@@ -193,10 +163,6 @@ class PatchEmbedding(nn.Module):
     def forward(self, x):
         x = self.proj(x).flatten(2).transpose(1, 2)
         return x
-
-
-# In[9]:
-
 
 class ASTModel(nn.Module):
     """
@@ -237,7 +203,8 @@ class ASTModel(nn.Module):
                                       for i in range(12)])
         #capa de normalización
         self.norm = nn.LayerNorm(self.embedding_n)
-        
+        self.softmax = nn.Softmax(dim=1)
+        model.
     def get_shape(self, div_f, div_t, input_f=128, input_t=1024):
         '''
         Obtenemos el valor más óptimo para representar las dimensiones de frecuencia y tiempo
@@ -278,11 +245,7 @@ class ASTModel(nn.Module):
         # Perceptron multicapa
         x = self.mlp(x)
         
+        # Log-softmax
+        x = self.softmax(x)
+        
         return x
-
-
-# In[ ]:
-
-
-
-

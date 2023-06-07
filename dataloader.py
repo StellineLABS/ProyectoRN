@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[32]:
-
-
 import os
 import json
 import torchaudio
@@ -14,65 +8,6 @@ import torch.nn.functional
 from torch.utils.data import Dataset
 import random
 import csv
-
-
-# In[33]:
-
-
-# Dataset CSV
-df = pd.read_csv('samples.csv')
-# Vector con todos los posibles identificadores 
-labels = []
-for n in range(10):
-    labels.append('T00' + str(n))
-for n in range(10,100):
-    labels.append('T0' + str(n))
-for n in range(100,201):
-    labels.append('T' + str(n))
-label = np.array(labels)
-np.random.shuffle(label)
-numeros = np
-nd=201
-# Creamos el csv que guarde todos los posibles identificadores 
-d = {'index': list(range(0,nd )), 'mid': label, 'display_name':["''"]*nd}
-df = pd.DataFrame(data=d)
-df.to_csv('class_labels_indices.csv', index = False)
-
-
-# In[23]:
-
-
-#JSON
-directory = 'canciones'
-df = pd.read_csv('samples.csv')
-diccionarios = []
-# Iteramos sobre archivos en ./canciones
-for filename in os.listdir(directory):
-    direccion = os.path.join(directory, filename)
-    if os.path.isfile(direccion):
-        # Quitamos extensión
-        original = filename.replace(".flac", "")
-        # Determinamos qué samples contiene cada canción según samples.csv
-        etiquetas = ','.join([*set([str(df['original_track_id'][i]) for i in list(df.index[df['sample_track_id'] == original])])])
-        # Placeholder si una canción no contiene samples
-        if etiquetas == '':
-            etiquetas = 'T000'
-        diccionario = {
-        "wav": direccion,
-        "labels": etiquetas
-        }
-        diccionarios.append(diccionario)
-        
-data = {
-    "data":diccionarios
-}
-json_object = json.dumps(data, indent=4)
-# Creamos json del dataset
-with open("train_data.json", "w") as outfile:
-    outfile.write(json_object)
-
-
-# In[24]:
 
 
 def make_index_dict(label_csv):
@@ -112,11 +47,9 @@ class AudiosetDataset(Dataset):
         with open(dataset_json_file, 'r') as fp:
             data_json = json.load(fp)
         self.data = data_json['data']
-        
         self.audio_conf  = {'num_mel_bins': 128, 'target_length': 1024, 'freqm': 24, 'timem': 192, 'mixup': 0.5}
         self.melbins = self.audio_conf.get('num_mel_bins')
         self.index_dict = make_index_dict(label_csv)
-        print(self.index_dict)
         self.label_num = len(self.index_dict)
         print('Total de clases {:d}'.format(self.label_num))
         
@@ -162,16 +95,4 @@ class AudiosetDataset(Dataset):
         return fbank, label_indices
     def __len__(self):
         return len(self.data)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
+    
