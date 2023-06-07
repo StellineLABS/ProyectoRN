@@ -27,7 +27,7 @@ class Attention(nn.Module):
             norm_layer=nn.LayerNorm,
     ):
         super().__init__()
-        assert dim % num_heads == 0,
+        assert dim % num_heads == 0
         self.num_heads = num_heads
         self.head_dim = dim // num_heads
         self.scale = self.head_dim ** -0.5
