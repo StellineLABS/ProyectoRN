@@ -38,7 +38,7 @@ Para el correcto funcionamiento del proyecto es necesario tener instalado:
 * timm
 * wget
 
-### Fuentes
+## Fuentes
 * Gong, Y., Chung, Y., & Glass, J. (2021). AST: Audio Spectrogram Transformer. arXiv (Cornell University). https://doi.org/10.48550/arxiv.2104.01778
 * Huggingface. (s. f.). GitHub - huggingface/pytorch-image-models: PyTorch image models, scripts, pretrained weights -- ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet, and more. GitHub. https://github.com/huggingface/pytorch-image-models
 * Hip-Hop Sample ID Dataset. (2020, 21 junio). Kaggle. https://www.kaggle.com/datasets/victorcvriano/hiphop-sample-id-dataset
