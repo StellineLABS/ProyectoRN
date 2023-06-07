@@ -1,9 +1,10 @@
 # AST (Audio Spectrogram Transformer) para identificación de samples
-* Britny Brito Juárez 421074668
-* David Salvador Preciado Márquez 421091670
 
 Clasificador que identifica samples en canciones.
 
+## Equipo
+* Britny Brito Juárez 421074668
+* David Salvador Preciado Márquez 421091670
 
 ## Implementación
 Para la implementación del proyecto nos basamos en la arquitectura conocida como Audio Spectrogram Transformer, desarrollada por Gong et al en 2021.
