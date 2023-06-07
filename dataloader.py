@@ -42,11 +42,12 @@ class AudiosetDataset(Dataset):
         :param dataset_json_file: nombre del archivo que contiene los datos 
         :param label_csv: archivo con mapeo de nombre de todas las clases
         """
-        #carga los archivos de json
+        # Cargamos el JSON del dataset
         self.datapath = dataset_json_file
         with open(dataset_json_file, 'r') as fp:
             data_json = json.load(fp)
         self.data = data_json['data']
+        # Configuración de audio obtenida del artículo
         self.audio_conf  = {'num_mel_bins': 128, 'target_length': 1024, 'freqm': 24, 'timem': 192, 'mixup': 0.5}
         self.melbins = self.audio_conf.get('num_mel_bins')
         self.index_dict = make_index_dict(label_csv)
@@ -54,16 +55,21 @@ class AudiosetDataset(Dataset):
         print('Total de clases {:d}'.format(self.label_num))
         
     def _wav2fbank(self, filename):
-        # mixup
+        """
+        Convierte el audio de entrada en un espectrograma
+        
+        :param filename: El audio a convertir
+        :returns: El espectrograma del audio recibido
+        """
         waveform, sr = torchaudio.load(filename)
         waveform = waveform - waveform.mean()
-    
+        # Obtenemos secuencias de bins (el espectrograma)
         fbank = torchaudio.compliance.kaldi.fbank(waveform, htk_compat=True, sample_frequency=sr, use_energy=False,
                                                   window_type='hanning', num_mel_bins=self.melbins, dither=0.0, frame_shift=10)
         target_length = self.audio_conf.get('target_length')
         n_frames = fbank.shape[0]
         p = target_length - n_frames
-        # cut and pad
+        # Recortar o rellenar
         if p > 0:
             m = torch.nn.ZeroPad2d((0, 0, 0, p))
             fbank = m(fbank)
@@ -72,12 +78,6 @@ class AudiosetDataset(Dataset):
         return fbank
 
     def __getitem__(self, index):
-        """
-        returns: image, audio, nframes
-        where image is a FloatTensor of size (3, H, W)
-        audio is a FloatTensor of size (N_freq, N_frames) for spectrogram, or (N_frames) for waveform
-        nframes is an integer
-        """        
         datum = self.data[index]
         label_indices = np.zeros(self.label_num)
         fbank = self._wav2fbank(datum['wav'])
@@ -85,14 +85,11 @@ class AudiosetDataset(Dataset):
             label_indices[int(self.index_dict[label_str])] = 1.0
         label_indices = torch.FloatTensor(label_indices)
         fbank = torch.transpose(fbank, 0, 1)
-        # this is just to satisfy new torchaudio version, which only accept [1, freq, time]
         fbank = fbank.unsqueeze(0)
-        # squeeze it back, it is just a trick to satisfy new torchaudio version
         fbank = fbank.squeeze(0)
         fbank = torch.transpose(fbank, 0, 1)
-
-        # the output fbank shape is [time_frame_num, frequency_bins], e.g., [1024, 128]
         return fbank, label_indices
+    
     def __len__(self):
         return len(self.data)
     
