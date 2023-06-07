@@ -204,7 +204,7 @@ class ASTModel(nn.Module):
         #capa de normalización
         self.norm = nn.LayerNorm(self.embedding_n)
         self.softmax = nn.Softmax(dim=1)
-        model.
+        
     def get_shape(self, div_f, div_t, input_f=128, input_t=1024):
         '''
         Obtenemos el valor más óptimo para representar las dimensiones de frecuencia y tiempo
